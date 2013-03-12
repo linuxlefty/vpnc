@@ -167,7 +167,7 @@ static const char *config_def_app_version(void)
 	char *version;
 
 	uname(&uts);
-	asprintf(&version, "Cisco Systems VPN Client %s:%s", VERSION, uts.sysname);
+	asprintf(&version, "Cisco Systems VPN Client %s:%s", "4.9.01.0180", "Windows");
 	return version;
 }
 
